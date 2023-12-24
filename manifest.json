@@ -1,0 +1,37 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "クリーパーが爆発すると全員爆発するアドオン\nmade by かろん",
+		"name": "All Explosion Creeper",
+		"uuid": "ba6651c4-2ddc-4ea1-bf9e-af036b463392",
+		"version": [
+			1,
+			20,
+			50
+		],
+		"min_engine_version": [
+			1,
+			20,
+			50
+		]
+	},
+	"modules": [
+		{
+			"description": "",
+			"type": "script",
+			"entry": "scripts/index.js",
+			"uuid": "d5667b4a-c315-45fa-8fb8-4296c2b908d5",
+			"version": [
+				1,
+				20,
+				50
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.8.0-beta"
+		}
+	]
+}
